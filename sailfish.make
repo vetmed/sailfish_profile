@@ -53,14 +53,6 @@ projects[backup_migrate][subdir] = "contrib"
 projects[ds][version] = 1.5
 projects[ds][subdir] = "contrib"
 
-; entity
-projects[entity][version] = 1.0-rc3
-projects[entity][subdir] = "contrib"
-
-; entity reference
-projects[entityreference][version] = 1.0-rc3
-projects[entityreference][subdir] = "contrib"
-
 ; feeds
 projects[feeds][version] = 2.0-alpha5
 projects[feeds][subdir] = "contrib"
@@ -89,6 +81,10 @@ projects[ckeditor][subdir] = "contrib"
 projects[views][version] = 3.5
 projects[views][subdir] = "contrib"
 
+; views bulk operations
+projects[views_bulk_operations][version] = 3.0-rc1
+projects[views_bulk_operations][subdir] = "contrib"
+
 ; views_slideshow
 projects[views_slideshow][version] = 3.0
 projects[views_slideshow][subdir] = "contrib"
@@ -97,8 +93,16 @@ projects[views_slideshow][subdir] = "contrib"
 projects[webform][version] = 3.18
 projects[webform][subdir] = "contrib"
 
+; entity
+projects[entity][version] = 1.x-dev
+projects[entity][subdir] = "contrib"
+
+; entity reference
+projects[entityreference][version] = 1.x-dev
+projects[entityreference][subdir] = "contrib"
+
 ; og
-projects[og][version] = 2.0-beta1
+projects[og][version] = 2.x-dev
 projects[og][subdir] = "contrib"
 
 
@@ -114,5 +118,5 @@ projects[og][subdir] = "contrib"
 libraries[ckeditor][download][type]= "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][destination] = "libraries"
+libraries[ckeditor][destination] = "contrib/ckeditor"
 
