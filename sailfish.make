@@ -17,6 +17,10 @@ api = 2
 ; Modules
 ; --------
 
+; jquery update
+projects[jquery_update][version] = 2.x-dev
+projects[jquery_update][subdir] = "contrib"
+
 ; module filter
 projects[module_filter][version] = 1.7
 projects[module_filter][subdir] = "contrib"
