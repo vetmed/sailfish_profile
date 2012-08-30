@@ -17,6 +17,10 @@ api = 2
 ; Modules
 ; --------
 
+; module filter
+projects[module_filter][version] = 1.7
+projects[module_filter][subdir] = "contrib"
+
 ; ctools
 projects[ctools][version] = 1.2
 projects[ctools][subdir] = "contrib"
