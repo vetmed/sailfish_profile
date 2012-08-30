@@ -2,6 +2,7 @@ name = sailfish
 description = Sailfish installation profile
 core = 7.x
 
+dependencies[] = module_filter
 dependencies[] = block
 dependencies[] = contextual
 dependencies[] = image
