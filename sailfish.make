@@ -105,6 +105,14 @@ projects[entityreference][subdir] = "contrib"
 projects[og][version] = 2.x-dev
 projects[og][subdir] = "contrib"
 
+; og menu
+projects[og_menu][version] = 3.x-dev
+projects[og_menu][subdir] = "contrib"
+
+; private files download permission
+projects[private_files_download_permission][version] = 1.3
+projects[private_files_download_permission][subdir] = "contrib"
+
 
 ; Themes
 ; --------
@@ -118,5 +126,5 @@ projects[og][subdir] = "contrib"
 libraries[ckeditor][download][type]= "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][destination] = "contrib/ckeditor"
+libraries[ckeditor][destination] = "modules/contrib/ckeditor"
 
