@@ -1,0 +1,21 @@
+name = sailfish
+description = Sailfish installation profile
+core = 7.x
+
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = toolbar
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = ctools
+dependencies[] = views
+dependencies[] = views_ui
